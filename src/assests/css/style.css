@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.main-wrapper .img-wrap {
+  max-width: 95%;
+  mix-blend-mode: lighten;
+}
+
+.banner-wrapper {
+  flex-wrap: wrap;
+}
+
+.banner-wrapper .image svg {
+  width: 36px !important;
+  height: 36px !important;
+}
+
+.card {
+  padding: 28px;
+  display: flex;
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 3px;
+  font-size: 14px;
+  line-height: 1.43;
+  color: rgb(102, 102, 102);
+  cursor: pointer;
+}
+
+.card .left-content {
+  flex-wrap: wrap;
+}
+
+/* card--section */
+
+.grid-wrapper .grid-content-wrap .min-head {
+  align-items: center;
+  justify-content:space-between;
+
+}
+.grid-wrapper .grid-content-wrap {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  grid-gap: 2rem;
+}
+.left-wrapper .card {
+  gap: 1rem;
+}
+.main-card-wrapper {
+  margin: 0.7rem 0;
+  width: 100%;
+}
+
+.main-bottom-card-wrapper{
+  height: 250px;
+  width: 96%;
+  padding: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.main-bottom-card-wrapper .card{ 
+  border: none!important;
+}
+/* user-review */
+
+.user-review{ 
+  padding: .8rem;
+  border-radius: 5px;
+  border: 1px solid rgb(230, 230, 230);
+  margin-bottom: .5rem;
+}
+.user-review h2{ 
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #666666;
+  line-height: 1.5;
+}
+.user-review .review-star { 
+  margin: .5rem 0;
+  display: block;
+}
+.user-review .review-star svg{ 
+  padding: unset;
+  width: 18px;
+  height: 18px;
+  transition: all .3s ease-in-out;
+  fill: #999!important;
+  cursor: pointer;
+}
+.user-review .review-star:hover svg{ 
+  fill: #000000!important;
+  transition: all .3s ease-in-out;
+}
+.user-review .reviewedby{ 
+  font-size: 14px;
+  color: #666666;
+  text-transform: capitalize;
+}
+.user-review .reviewedby b{ 
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #000;
+}
