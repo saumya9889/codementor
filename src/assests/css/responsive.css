@@ -1,0 +1,157 @@
+.button-mobile {
+  display: none !important;
+}
+@media only screen and (max-width: 1200px) {
+  .grid-wrapper .grid-content-wrap {
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .grid-wrapper .grid-content-wrap {
+    display: block;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .grid-wrapper .grid-content-wrap {
+    width: 90%;
+  }
+  .main-card-wrapper .card p {
+    word-wrap: break-word;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main-card-wrapper .card {
+    display: block; 
+  }
+
+  .main-card-wrapper .card .left-content img {
+    border-radius: 50%;
+    max-width: 19% !important;
+    max-height: 20% !important;
+    margin: 0 auto 1rem 0;
+    text-align: left;
+    display: flex;
+  }
+
+  .main-card-wrapper .card  a {
+    border: none!important;
+  }
+  .button-mobile {
+    display: block !important;
+    width: 100% !important;
+    padding: 0.4rem 0 !important;
+    font-size: 12px !important;
+    height: 38px !important;
+  }
+  .button-desktop {
+    display: none !important;
+  }
+  .banner-wrapper h1 {
+    font-size: 1.6rem;
+    align-items: center;
+    display: block;
+  }
+  .banner-wrapper p br {
+    line-height: 1.5;
+    display: none;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .banner-wrapper button {
+    height: 40px;
+    font-size: 12px;
+    width: max-content;
+  }
+  .banner-wrapper .image svg {
+    width: 29px !important;
+    height: 29px !important;
+    display: block;
+    filter: brightness(5.5) invert(1);
+  }
+  .banner-wrapper .image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  .hamburge-item {
+    position: absolute;
+    width: 220px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px 3px 3px 0px;
+    top: 100%;
+    border-top: 1px solid rgb(0, 68, 91);
+    z-index: 4;
+    display: block;
+    right: 0px;
+    text-align: left;
+  }
+  .hamburge-item p {
+    display: inline-block;
+    padding: 12px 16px;
+    width: 100%;
+    font-size: 14px;
+    background: rgb(0, 68, 91);
+    color: rgb(255, 255, 255);
+    margin-left: 0;
+    text-align: left;
+  }
+  .main-bottom-card-wrapper button{
+    height: 40px;
+    font-size: 12px;
+    width: max-content;
+    display: flex;
+    align-items: center;
+  }
+  .main-bottom-card-wrapper h2{
+    font-size: 21px;
+   }
+}
+
+@media only screen and (max-width: 480px) { 
+    .banner-wrapper h1 {
+        font-size: 1.4rem; 
+    }
+    .banner-wrapper p {
+        font-size: 1rem; 
+        line-height: 1.6;
+    }
+    .left-wrapper .min-head {
+      display: block;
+      gap: 1rem;
+      font-size: 15px;
+    }
+    .left-wrapper .min-head a{
+      display: block;
+      margin-top: .7rem;
+      font-size: 15px;
+    }
+    .main-card-wrapper .card  h3 {
+        font-size: 14px;
+        line-height: 1.6;
+      }
+    .main-card-wrapper .card  h4 {
+        font-size: 13px;
+        line-height: 1.6;
+      }
+      .main-card-wrapper .card  p {
+        font-size: 13px;
+        line-height: 1.6;
+      }
+      .main-card-wrapper .card  a{
+        font-size: 12px; 
+      }
+      .user-review h2 {
+        font-size: 13px; 
+    } 
+    .user-review .review-star svg {
+        width: 16px;
+        height: 16px; 
+    }
+    .user-review .review-star {
+        margin: 0.6rem 0 0; 
+    }
+    .user-review .reviewedby {
+        font-size: 13px; 
+        margin: 0.5rem 0;
+    }
+    
+}

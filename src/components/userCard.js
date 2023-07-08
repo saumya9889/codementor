@@ -35,6 +35,7 @@ const UserCard = (props) => {
             />
             <Button
               variant="contained"
+              className="button-desktop"
               sx={{
                 "&:hover": {
                   backgroundColor: "rgb(0, 159, 198)",
@@ -105,7 +106,7 @@ const UserCard = (props) => {
               sx={{
                 display: "flex",
                 padding: "3px 8px",
-                flexWrap: "nowrap",
+                flexWrap: "wrap",
               }}
             >
               <Button
@@ -182,6 +183,43 @@ const UserCard = (props) => {
                 React
               </Button>
             </Box>
+            <Button
+              variant="contained"
+              className="button-mobile"
+              sx={{
+                "&:hover": {
+                  backgroundColor: "rgb(0, 159, 198)",
+                },
+                background: "rgb(0, 159, 198)",
+                border: "rgb(0, 159, 198)",
+                borderradius: "4px",
+                outline: "none",
+                padding: "15px 31px",
+                opacity: 1,
+                marginTop: "2rem",
+                width: "180px",
+                height: "50px",
+                fontsize: "12px",  
+              }}
+            >
+              <span
+                style={{
+                  color: "#ffffff",
+                  cursor: "pointer",
+                  texttransform: "uppercase",
+                  fontfamily: "Open Sans",
+                  fontweight: 700,
+                  fontsize: "14px",
+                  lineheight: "1.43",
+                  textalign: "center",
+                  transition:
+                    "background-color 0.1s ease-in-out 0s, border-color 0.1s ease-in-out 0s",
+                }}
+              >
+                {" "}
+                Get Help Now{" "}
+              </span>
+            </Button>
           </Box>
         </CardContent>
       </Card>
