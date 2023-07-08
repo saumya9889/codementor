@@ -5,6 +5,9 @@
   .grid-wrapper .grid-content-wrap {
     width: 85%;
   }
+  #root{
+    overflow-x: hidden;
+  }
 }
 @media only screen and (max-width: 1024px) {
   .grid-wrapper .grid-content-wrap {
@@ -13,7 +16,8 @@
 }
 @media only screen and (max-width: 992px) {
   .grid-wrapper .grid-content-wrap {
-    width: 90%;
+    width: 90%!important;
+    overflow-x: hidden!important;
   }
   .main-card-wrapper .card p {
     word-wrap: break-word;
@@ -106,6 +110,7 @@
    }
 }
 
+
 @media only screen and (max-width: 480px) { 
     .banner-wrapper h1 {
         font-size: 1.4rem; 
@@ -154,4 +159,15 @@
         margin: 0.5rem 0;
     }
     
+}
+
+@media only screen and (max-width: 375px) {
+  .main-bottom-card-wrapper {
+   width: 90%!important; 
+}  
+}
+@media only screen and (max-width: 320px) {
+  .main-bottom-card-wrapper {
+   width: 80%!important; 
+}  
 }
